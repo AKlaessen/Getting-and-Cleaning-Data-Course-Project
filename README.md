@@ -66,5 +66,5 @@ The resulting dataset tidyDataset.txt contains 66 columns of averaged informatio
 ## The project includes the following files
 - "README.md"
 - "Codebook.md": List of all features
-- "main.R": Main R script performing the tidy operations
+- "run_analysis.R": R script which performs the tidy operations
 - "tidyDataset.txt": Tidy dataset
