@@ -48,7 +48,7 @@ The set of variables that were estimated from these signals are:
 - angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-gravityMeantBodyAccMeantBodyAccJerkMeantBodyGyroMeantBodyGyroJerkMean
+gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean.
 
 ## Processing
 
@@ -60,10 +60,11 @@ From the original data set a series of steps were followed in order to obtain a 
 - Extract the measurements concerning mean and standard deviation values
 - Convert tidy dataset to a txt file
 
-The resulting dataset tidy.txt contains 66 columns of averaged information (per subject and activity) corresponding to the Mean and std of different meassurements for a total of 180 observations (30 subjects x 6 activities). These observations include meassurements in Time and Frequency of magnitude (Mag) and components in X,Y and Z direction for the linear acceleration (Acc), angular acceleration (Gyro), linear jerk (AccJerk) and angular jerk (GyroJerk) for both Body and Gravity components. Columns 1 and 2 correspond to the Subject and Activity.
+The resulting dataset tidyDataset.txt contains 66 columns of averaged information (per subject and activity) corresponding to the mean value and standard deviation of different meassurements for a total of 180 observations (30 subjects with 6 activities). 
+
 
 ## The project includes the following files
 - "README.md"
 - "Codebook.md": List of all features
 - "main.R": Main R script performing the tidy operations
-- "tidy.txt": Tidy dataset
+- "tidyDataset.txt": Tidy dataset
